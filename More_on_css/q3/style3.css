@@ -1,0 +1,45 @@
+.navbar {
+    border: 1px solid rgb(57, 57, 246);
+    height: 50px;
+    background-color: rgb(78, 78, 244);
+    padding: 0;
+    margin: 0;
+}
+
+.list {
+    display: flex;
+    justify-content:baseline;
+    gap:40px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: aliceblue;
+}
+
+a:hover {
+    color: red;
+}
+
+#l1 {
+    border-style: double;
+}
+
+#l2 {
+    border-style: groove;
+}
+
+#l3 {
+    border-style: dotted;
+}
+
+#l4 {
+    border-style: dashed;
+}
+
+#l5 {
+    border-style: inset;
+}
